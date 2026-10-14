@@ -50,3 +50,21 @@ ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,nb_fr
 이미지는 `public/assets/`에 업로드하세요.
 클라우드 환경 설정을 검토하고 저장한 후 환경을 게시하여 설치 파일을 스냅샷에 보존하세요.
 현재 살아 있는 Studio 프로세스는 다음 작업에서 다시 시작해야 합니다.
+
+## 드롭타워 모션 웹툰
+
+Composition `DropTowerWebtoon`: 1920×1080, 30fps, 정확히 450프레임(15초).
+6컷은 0–60–120–195–270–360–450 프레임으로 구성됩니다.
+음성·음악은 없으며 한국어 자막은 별도 React 텍스트 레이어입니다.
+원본에서 분리한 `public/assets/extracted` 소재만 사용합니다.
+
+- 렌더링: `npm run render:webtoon`
+- 영상: `out/drop-tower-silent.mp4`
+- 6컷 미리보기: `out/drop-tower-six-scenes.png`
+- 개별 대표 프레임: `out/scenes/scene-1.png`부터 `scene-6.png`
+- 검증 결과: `out/drop-tower-validation.json`
+- 대표 프레임 재생성: `npm run build` 후 `node tools/preview-webtoon.cjs`
+
+플레이트·카메라·챔버의 위치는 4–5컷에 공유되며, 챔버 앞면은 물방울보다 앞에 합성합니다.
+통로는 고정하고 3컷의 캡슐과 내부 확대 그림은 같은 가속 곡선으로 함께 이동합니다.
+마지막 30프레임은 정지 상태입니다.

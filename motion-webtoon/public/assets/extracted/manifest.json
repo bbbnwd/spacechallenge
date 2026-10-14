@@ -1,0 +1,789 @@
+{
+  "source_sha256": {
+    "푸른 창가의 밝은 과학 실험실-1.png": "3495220de48a866f77eeb103237ddcfaa56f9511c8f0ba880b8318629c9d03ab",
+    "은색 접시 마스코트 5가지 표정 시트-7.png": "7fc4dbe890dc38f7b1b44515e6098e6f09aca75c88b3b4ec2f5bb3aa42d7fc82",
+    "우주 실험용 물방울 소품 모음-8.png": "a820e1cb79cb00e7a6a2dd76eefa6e04866558ede18b1ebbdf6230b95130499b",
+    "산업용 수직 샤프트 단면도-3.png": "466f3ac8e64a90e47932991abc53d8c7101677c3064f9f42f527bf3fe036e4cf",
+    "세 가지 표정의 드롭타워 캐릭터-6.png": "2f3e90874b04487735ccb167fbc1c37276d8e504e2f3e961aa94e9fe3b3bc7e9",
+    "노란 캡슐의 다섯 가지 표정-5.png": "baecaddbba217b1fd283f3fa4d244f2e2b29cb67071a6eae3c38350db57b876d",
+    "노란 포인트의 실험 캡슐-4.png": "dcc28e663eff0bfa6d4367c39c52ee8797275b8fc967332efe11cacc7d9561f7",
+    "햇살 가득한 연구 캠퍼스 광장-2.png": "b34a2e38c8d2b98c80fdeb2d9058d5dc9a7e4306fa1b1fb8431590a04beefcc1"
+  },
+  "assets": [
+    {
+      "path": "assets/extracted/backgrounds/laboratory.png",
+      "source": "푸른 창가의 밝은 과학 실험실-1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "unchanged_copy": true
+    },
+    {
+      "path": "assets/extracted/backgrounds/campus-plaza.png",
+      "source": "햇살 가득한 연구 캠퍼스 광장-2.png",
+      "size": [
+        1672,
+        941
+      ],
+      "unchanged_copy": true
+    },
+    {
+      "path": "assets/extracted/backgrounds/vertical-shaft.png",
+      "source": "산업용 수직 샤프트 단면도-3.png",
+      "size": [
+        1672,
+        940
+      ],
+      "unchanged_copy": true
+    },
+    {
+      "path": "assets/extracted/backgrounds/capsule-interior.png",
+      "source": "노란 포인트의 실험 캡슐-4.png",
+      "size": [
+        1672,
+        941
+      ],
+      "unchanged_copy": true
+    },
+    {
+      "path": "assets/extracted/characters/capsule/happy.png",
+      "source": "노란 캡슐의 다섯 가지 표정-5.png",
+      "source_roi": [
+        10,
+        5,
+        477,
+        710
+      ],
+      "source_alpha_bbox": [
+        35,
+        23,
+        467,
+        687
+      ],
+      "size": [
+        560,
+        768
+      ],
+      "body_reference": [
+        83,
+        25,
+        416,
+        684
+      ],
+      "target_body": [
+        330,
+        660
+      ],
+      "anchor": [
+        280,
+        716
+      ],
+      "discarded_background_pixels": 3025,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 142307,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/capsule/thinking.png",
+      "source": "노란 캡슐의 다섯 가지 표정-5.png",
+      "source_roi": [
+        477,
+        5,
+        873,
+        710
+      ],
+      "source_alpha_bbox": [
+        494,
+        26,
+        858,
+        686
+      ],
+      "size": [
+        560,
+        768
+      ],
+      "body_reference": [
+        495,
+        29,
+        816,
+        684
+      ],
+      "target_body": [
+        330,
+        660
+      ],
+      "anchor": [
+        280,
+        716
+      ],
+      "discarded_background_pixels": 2838,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 136668,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/capsule/worried.png",
+      "source": "노란 캡슐의 다섯 가지 표정-5.png",
+      "source_roi": [
+        873,
+        5,
+        1300,
+        710
+      ],
+      "source_alpha_bbox": [
+        883,
+        26,
+        1277,
+        687
+      ],
+      "size": [
+        560,
+        768
+      ],
+      "body_reference": [
+        925,
+        28,
+        1252,
+        684
+      ],
+      "target_body": [
+        330,
+        660
+      ],
+      "anchor": [
+        280,
+        716
+      ],
+      "discarded_background_pixels": 3010,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 138834,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/capsule/surprised.png",
+      "source": "노란 캡슐의 다섯 가지 표정-5.png",
+      "source_roi": [
+        1300,
+        5,
+        1719,
+        710
+      ],
+      "source_alpha_bbox": [
+        1317,
+        22,
+        1707,
+        687
+      ],
+      "size": [
+        560,
+        768
+      ],
+      "body_reference": [
+        1347,
+        25,
+        1673,
+        684
+      ],
+      "target_body": [
+        330,
+        660
+      ],
+      "anchor": [
+        280,
+        716
+      ],
+      "discarded_background_pixels": 4904,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 141017,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/capsule/wink.png",
+      "source": "노란 캡슐의 다섯 가지 표정-5.png",
+      "source_roi": [
+        1719,
+        5,
+        2160,
+        710
+      ],
+      "source_alpha_bbox": [
+        1729,
+        26,
+        2136,
+        687
+      ],
+      "size": [
+        560,
+        768
+      ],
+      "body_reference": [
+        1766,
+        28,
+        2097,
+        684
+      ],
+      "target_body": [
+        330,
+        660
+      ],
+      "anchor": [
+        280,
+        716
+      ],
+      "discarded_background_pixels": 4458,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 137705,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/drop-tower/happy.png",
+      "source": "세 가지 표정의 드롭타워 캐릭터-6.png",
+      "source_roi": [
+        190,
+        10,
+        680,
+        717
+      ],
+      "source_alpha_bbox": [
+        219,
+        27,
+        654,
+        702
+      ],
+      "size": [
+        640,
+        768
+      ],
+      "body_reference": [
+        281,
+        30,
+        574,
+        699
+      ],
+      "target_body": [
+        293,
+        669
+      ],
+      "anchor": [
+        320,
+        720
+      ],
+      "discarded_background_pixels": 6306,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 160880,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/drop-tower/pointing-wink.png",
+      "source": "세 가지 표정의 드롭타워 캐릭터-6.png",
+      "source_roi": [
+        830,
+        10,
+        1340,
+        717
+      ],
+      "source_alpha_bbox": [
+        852,
+        28,
+        1315,
+        702
+      ],
+      "size": [
+        640,
+        768
+      ],
+      "body_reference": [
+        913,
+        30,
+        1206,
+        700
+      ],
+      "target_body": [
+        293,
+        669
+      ],
+      "anchor": [
+        320,
+        720
+      ],
+      "discarded_background_pixels": 7915,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 161737,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/drop-tower/celebrating.png",
+      "source": "세 가지 표정의 드롭타워 캐릭터-6.png",
+      "source_roi": [
+        1515,
+        10,
+        2005,
+        717
+      ],
+      "source_alpha_bbox": [
+        1539,
+        28,
+        1977,
+        702
+      ],
+      "size": [
+        640,
+        768
+      ],
+      "body_reference": [
+        1594,
+        30,
+        1887,
+        699
+      ],
+      "target_body": [
+        293,
+        669
+      ],
+      "anchor": [
+        320,
+        720
+      ],
+      "discarded_background_pixels": 8923,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 163137,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/plate/smile.png",
+      "source": "은색 접시 마스코트 5가지 표정 시트-7.png",
+      "source_roi": [
+        5,
+        125,
+        535,
+        500
+      ],
+      "source_alpha_bbox": [
+        20,
+        155,
+        525,
+        476
+      ],
+      "size": [
+        720,
+        520
+      ],
+      "body_reference": [
+        44,
+        157,
+        503,
+        440
+      ],
+      "target_body": [
+        460,
+        283
+      ],
+      "anchor": [
+        330,
+        418
+      ],
+      "discarded_background_pixels": 3658,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 134316,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/plate/excited.png",
+      "source": "은색 접시 마스코트 5가지 표정 시트-7.png",
+      "source_roi": [
+        540,
+        125,
+        1070,
+        500
+      ],
+      "source_alpha_bbox": [
+        557,
+        146,
+        1069,
+        475
+      ],
+      "size": [
+        720,
+        520
+      ],
+      "body_reference": [
+        560,
+        148,
+        994,
+        425
+      ],
+      "target_body": [
+        460,
+        283
+      ],
+      "anchor": [
+        330,
+        418
+      ],
+      "discarded_background_pixels": 3671,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 137335,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/plate/thinking.png",
+      "source": "은색 접시 마스코트 5가지 표정 시트-7.png",
+      "source_roi": [
+        1070,
+        125,
+        1530,
+        505
+      ],
+      "source_alpha_bbox": [
+        1074,
+        152,
+        1519,
+        481
+      ],
+      "size": [
+        720,
+        520
+      ],
+      "body_reference": [
+        1081,
+        154,
+        1500,
+        447
+      ],
+      "target_body": [
+        460,
+        283
+      ],
+      "anchor": [
+        330,
+        418
+      ],
+      "discarded_background_pixels": 3061,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 131264,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/plate/worried.png",
+      "source": "은색 접시 마스코트 5가지 표정 시트-7.png",
+      "source_roi": [
+        230,
+        550,
+        748,
+        952
+      ],
+      "source_alpha_bbox": [
+        249,
+        581,
+        723,
+        923
+      ],
+      "size": [
+        720,
+        520
+      ],
+      "body_reference": [
+        252,
+        588,
+        717,
+        881
+      ],
+      "target_body": [
+        460,
+        283
+      ],
+      "anchor": [
+        330,
+        418
+      ],
+      "discarded_background_pixels": 3335,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 131972,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/characters/plate/confident-wink.png",
+      "source": "은색 접시 마스코트 5가지 표정 시트-7.png",
+      "source_roi": [
+        785,
+        540,
+        1440,
+        948
+      ],
+      "source_alpha_bbox": [
+        811,
+        567,
+        1410,
+        911
+      ],
+      "size": [
+        720,
+        520
+      ],
+      "body_reference": [
+        818,
+        574,
+        1295,
+        857
+      ],
+      "target_body": [
+        460,
+        283
+      ],
+      "anchor": [
+        330,
+        418
+      ],
+      "discarded_background_pixels": 5520,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "partially_transparent_pixels": 143380,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/water-drop-round.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        65,
+        125,
+        399,
+        452
+      ],
+      "source_alpha_bbox": [
+        88,
+        146,
+        377,
+        432
+      ],
+      "size": [
+        337,
+        334
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 2055,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 63625,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/water-drop-long.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        425,
+        10,
+        670,
+        505
+      ],
+      "source_alpha_bbox": [
+        449,
+        35,
+        647,
+        485
+      ],
+      "size": [
+        246,
+        498
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 2777,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 47448,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/pipette.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        680,
+        3,
+        1080,
+        580
+      ],
+      "source_alpha_bbox": [
+        702,
+        12,
+        1065,
+        559
+      ],
+      "size": [
+        411,
+        595
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 3630,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 51090,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/chamber.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        1070,
+        40,
+        1510,
+        612
+      ],
+      "source_alpha_bbox": [
+        1087,
+        64,
+        1488,
+        601
+      ],
+      "size": [
+        449,
+        585
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 4542,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 189499,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/camera.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        10,
+        570,
+        403,
+        1007
+      ],
+      "source_alpha_bbox": [
+        36,
+        584,
+        400,
+        990
+      ],
+      "size": [
+        412,
+        454
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 4255,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 98125,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/monitor.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        395,
+        580,
+        835,
+        1007
+      ],
+      "source_alpha_bbox": [
+        403,
+        602,
+        825,
+        984
+      ],
+      "size": [
+        470,
+        430
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 6832,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 130690,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/thought-bubble.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        815,
+        575,
+        1265,
+        1000
+      ],
+      "source_alpha_bbox": [
+        823,
+        590,
+        1255,
+        983
+      ],
+      "size": [
+        480,
+        441
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 9773,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 110939,
+      "edge_clear": true
+    },
+    {
+      "path": "assets/extracted/props/water-tank.png",
+      "source": "우주 실험용 물방울 소품 모음-8.png",
+      "source_roi": [
+        1260,
+        600,
+        1533,
+        1017
+      ],
+      "source_alpha_bbox": [
+        1269,
+        610,
+        1514,
+        996
+      ],
+      "size": [
+        293,
+        434
+      ],
+      "body_reference": null,
+      "target_body": null,
+      "anchor": null,
+      "discarded_background_pixels": 3383,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "partially_transparent_pixels": 72834,
+      "edge_clear": true
+    }
+  ],
+  "notes": [
+    "Original sources untouched. Source alpha values retained inside silhouettes.",
+    "Remove low-alpha disconnected background haze; keep detached expression effects.",
+    "Character bodies aligned to explicit source landmarks; hands/effects excluded from body measurement.",
+    "All assets have transparent safety margins. Water drops retain their reflections.",
+    "Round and elongated drops provided separately. Pipette includes its attached droplet.",
+    "Chamber retains original translucent illustration; glass is not made fully transparent."
+  ]
+}

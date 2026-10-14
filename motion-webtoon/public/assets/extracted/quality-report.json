@@ -1,0 +1,301 @@
+{
+  "originals_unchanged": true,
+  "png_count": 25,
+  "cutout_count": 21,
+  "results": [
+    {
+      "file": "assets/extracted/characters/capsule/happy.png",
+      "transparent_margins_px": [
+        67,
+        54,
+        65,
+        49
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/capsule/thinking.png",
+      "transparent_margins_px": [
+        114,
+        53,
+        72,
+        50
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/capsule/worried.png",
+      "transparent_margins_px": [
+        73,
+        54,
+        89,
+        49
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/capsule/surprised.png",
+      "transparent_margins_px": [
+        85,
+        53,
+        80,
+        49
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/capsule/wink.png",
+      "transparent_margins_px": [
+        78,
+        54,
+        76,
+        49
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/drop-tower/happy.png",
+      "transparent_margins_px": [
+        112,
+        48,
+        93,
+        45
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/drop-tower/pointing-wink.png",
+      "transparent_margins_px": [
+        112,
+        49,
+        65,
+        46
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/drop-tower/celebrating.png",
+      "transparent_margins_px": [
+        118,
+        49,
+        84,
+        45
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/plate/smile.png",
+      "transparent_margins_px": [
+        76,
+        133,
+        138,
+        66
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/plate/excited.png",
+      "transparent_margins_px": [
+        97,
+        133,
+        80,
+        51
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/plate/thinking.png",
+      "transparent_margins_px": [
+        92,
+        133,
+        139,
+        69
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/plate/worried.png",
+      "transparent_margins_px": [
+        97,
+        128,
+        154,
+        62
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/characters/plate/confident-wink.png",
+      "transparent_margins_px": [
+        93,
+        128,
+        49,
+        48
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/water-drop-round.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/water-drop-long.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/pipette.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/chamber.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/camera.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/monitor.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/thought-bubble.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "assets/extracted/props/water-tank.png",
+      "transparent_margins_px": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "mode": "RGBA"
+    }
+  ]
+}
