@@ -1,0 +1,99 @@
+{
+  "version": "V3",
+  "status": "awaiting-keyframe-approval",
+  "stage": "finished keyframes only; no layer extraction or animation render",
+  "reference": "User-supplied six-panel storyboard, final visual direction (2nd draft)",
+  "video_target": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 450,
+    "durationSeconds": 15
+  },
+  "assets": [
+    {
+      "scene": 1,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "53fedea13caa45981c936d6dbaf0f362da8877111f4ac0a9875646f3f635a4b9"
+    },
+    {
+      "scene": 2,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "6ce7d4f4905c2b80a8b6de5ff6b5276b56f9faabdd5dbd8fd45ad6e65c4b97b6"
+    },
+    {
+      "scene": 3,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "3367a3c6423c8ac145a98c908f3a4d9ae27aa317b6325913665f294b70eed9c7"
+    },
+    {
+      "scene": 4,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "a8f37c5cb56806edbb9a0458fb457e0d1570654277689278b24d1358a660fdde"
+    },
+    {
+      "scene": 5,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "419a22fb0d89babec3774c3e6a718022132036f0ddbc7a970f71bdb9168b1ea4"
+    },
+    {
+      "scene": 6,
+      "generated_size": [
+        1672,
+        941
+      ],
+      "delivery_size": [
+        1920,
+        1080
+      ],
+      "normalization": "uniform resampling and negligible edge crop to 16:9; no axis stretching",
+      "sha256": "50c59f5009533b438c13a164ef7e743a0e5393bf33def17b3e903eef29c08de8"
+    }
+  ],
+  "original_work_preserved": [
+    "DropTowerWebtoon V1",
+    "DropTowerWebtoonV2",
+    "deliverables/drop-tower-silent.mp4",
+    "deliverables/revision-v2/"
+  ]
+}
