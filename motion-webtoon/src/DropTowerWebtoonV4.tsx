@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { AbsoluteFill, Img, Sequence, cancelRender, continueRender, delayRender, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Caption as CaptionCue } from "@remotion/captions";
 import assets from "../public/assets/motion-v4/manifest.json";
 import captionData from "../public/assets/motion-v4/captions.json";
+import dialogueLayout from "../public/assets/motion-v4/dialogue-v5.json";
 
 const captions: CaptionCue[] = captionData.captions;
 const notes: CaptionCue[] = captionData.notes;
@@ -14,6 +15,46 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const fade = (f: number, start: number, end: number) => interpolate(f, [start, end], [0, 1], clamp);
 const ease = (t: number) => t*t*(3-2*t);
 let fontPromise: Promise<FontFace> | undefined;
+const SpeechBubbleMode = createContext(false);
+
+type BubbleLayout = {
+  x: number; y: number; w: number; h: number; font: number;
+  lines: string[]; side: "top" | "left" | "right" | "bottom";
+  attach: number; tip: [number, number];
+};
+
+const bubbleLayouts = dialogueLayout.bubbles as BubbleLayout[];
+
+const balloonPath = ({ x, y, w, h, side, attach, tip: [tx, ty] }: BubbleLayout) => {
+  const r = 30;
+  const half = 28;
+  const top = side === "top" ? `H ${x+attach-half} L ${tx} ${ty} L ${x+attach+half} ${y}` : "";
+  const right = side === "right" ? `V ${y+attach-half} L ${tx} ${ty} L ${x+w} ${y+attach+half}` : "";
+  const bottom = side === "bottom" ? `H ${x+attach+half} L ${tx} ${ty} L ${x+attach-half} ${y+h}` : "";
+  const left = side === "left" ? `V ${y+attach+half} L ${tx} ${ty} L ${x} ${y+attach-half}` : "";
+  return `M ${x+r} ${y} ${top} H ${x+w-r} Q ${x+w} ${y} ${x+w} ${y+r} ${right} V ${y+h-r} Q ${x+w} ${y+h} ${x+w-r} ${y+h} ${bottom} H ${x+r} Q ${x} ${y+h} ${x} ${y+h-r} ${left} V ${y+r} Q ${x} ${y} ${x+r} ${y} Z`;
+};
+
+const SpeechDialogue = ({ index, frame }: { index: number; frame: number }) => {
+  const opacity = fade(frame, 3, 11);
+  if (index === 5) {
+    return <svg viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity, pointerEvents: "none" }}>
+      <text x="960" y="106" textAnchor="middle" fontFamily="WebtoonCaptions" fontSize="70" fill="#fffef8" stroke="#102331" strokeWidth="11" paintOrder="stroke fill" strokeLinejoin="round">{captions[5].text}</text>
+    </svg>;
+  }
+  const layout = bubbleLayouts[index];
+  const offsetY = index === 2 ? 1110 * fade(frame, 12, 74)**2 : 0;
+  const lineHeight = layout.font*1.27;
+  const firstBaseline = layout.y+layout.h/2-(layout.lines.length-1)*lineHeight/2+layout.font*.35;
+  return <svg viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity, overflow: "hidden", pointerEvents: "none" }}>
+    <g transform={`translate(0 ${offsetY})`}>
+      <path d={balloonPath(layout)} fill="#fffef8" stroke="#172733" strokeWidth="5" strokeLinejoin="round" style={{ filter: "drop-shadow(0px 5px 4px rgba(4,20,30,.22))" }} />
+      <text x={layout.x+layout.w/2} textAnchor="middle" fontFamily="WebtoonCaptions" fontSize={layout.font} fill="#172733">
+        {layout.lines.map((line, i) => <tspan key={line} x={layout.x+layout.w/2} y={firstBaseline+i*lineHeight}>{line}</tspan>)}
+      </text>
+    </g>
+  </svg>;
+};
 
 const useCaptionFont = () => {
   const [handle] = useState(() => delayRender("Load bundled Korean caption font"));
@@ -33,7 +74,9 @@ const Layer = ({ scene, name, transform = "", opacity = 1, origin = "50% 50%" }:
 
 const Caption = ({ text, top = false, right = false, note }: { text: string; top?: boolean; right?: boolean; note?: string }) => {
   const frame = useCurrentFrame();
+  const speechMode = useContext(SpeechBubbleMode);
   useCaptionFont();
+  if (speechMode) return <SpeechDialogue index={captions.findIndex(cue => cue.text === text)} frame={frame} />;
   return <div style={{ position: "absolute", ...(top ? { top: 34 } : { bottom: 28 }), ...(right ? { right: 54 } : { left: 54 }), opacity: fade(frame, 3, 11), transform: `translateY(${8*(1-fade(frame,3,11))}px)`, fontFamily: '"WebtoonCaptions", "Noto Sans CJK KR", sans-serif', color: "white", fontWeight: 700 }}>
     {note && <div style={{ fontSize: 27, background: "rgba(7,22,36,.87)", padding: "8px 18px", borderRadius: 12, width: "fit-content", marginBottom: 8 }}>{note}</div>}
     <div style={{ fontSize: 43, lineHeight: 1.35, padding: "13px 24px", background: "rgba(7,22,36,.88)", border: "1px solid rgba(255,255,255,.28)", borderRadius: 18, boxShadow: "0 4px 18px rgba(0,0,0,.18)" }}>{text}</div>
@@ -143,3 +186,5 @@ export const DropTowerWebtoonV4 = () => {
 };
 
 export const OriginalReferenceV4 = () => <Img src={staticFile(`${originalPath}scene-1.png`)} style={{ width: 1920, height: 1080 }} />;
+
+export const DropTowerWebtoonV5 = () => <SpeechBubbleMode.Provider value={true}><DropTowerWebtoonV4 /></SpeechBubbleMode.Provider>;
