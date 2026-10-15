@@ -8,11 +8,15 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "render": "remotion render src/index.ts MotionWebtoon out/motion-webtoon.mp4 --codec=h264 --concurrency=2",
+    "render:v3": "remotion render src/index.ts DropTowerWebtoonV3 deliverables/webtoon-v3-15s.mp4 --codec=h264 --pixel-format=yuv420p --crf=18 --concurrency=2",
+    "render:v4": "remotion render src/index.ts DropTowerWebtoonV4 deliverables/webtoon-v4-15s.mp4 --codec=h264 --pixel-format=yuv420p --crf=18 --concurrency=2",
+    "render:v4-test": "remotion render src/index.ts Scene1V4-Test deliverables/scene-1-v4-test-2s.mp4 --codec=h264 --pixel-format=yuv420p --crf=18 --concurrency=2",
     "render:webtoon": "remotion render src/index.ts DropTowerWebtoon out/drop-tower-silent.mp4 --codec=h264 --pixel-format=yuv420p --crf=18 --concurrency=2"
   },
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
+    "@remotion/captions": "^4.0.535",
     "@remotion/cli": "4.0.535",
     "@remotion/transitions": "^4.0.535",
     "react": "19.2.3",

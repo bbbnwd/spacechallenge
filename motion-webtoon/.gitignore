@@ -7,3 +7,6 @@ dist
 out
 
 build/
+
+# Local review frames and intermediate analysis; production assets are public/.
+work/

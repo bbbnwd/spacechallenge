@@ -1,0 +1,55 @@
+{
+  "captions": [
+    {
+      "text": "우주에선 물이 어떻게 움직일까?",
+      "startMs": 0,
+      "endMs": 2000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "여기서 먼저 알아보자!",
+      "startMs": 2000,
+      "endMs": 4000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "함께 떨어지면…",
+      "startMs": 4000,
+      "endMs": 6500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "어? 물방울이 떠 있네!",
+      "startMs": 6500,
+      "endMs": 9000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "이 움직임을 기록하자!",
+      "startMs": 9000,
+      "endMs": 12000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "우주 기술, 지구에서 먼저!",
+      "startMs": 12000,
+      "endMs": 15000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "notes": [
+    {
+      "text": "함께 자유낙하 → 미세중력",
+      "startMs": 6500,
+      "endMs": 9000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}
